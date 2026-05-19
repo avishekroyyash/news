@@ -10,3 +10,10 @@ export const NewsPromise = async (id)=>{
   // console.log(Data.data,'this is data');
   return Data.data;
 }
+
+export const NewsDetailsPromise = async (newid)=>{
+  const res = await fetch(`https://openapi.programming-hero.com/api/news/${newid}`)
+  const Data = await res.json();
+  // console.log(Data.data,'this is data');
+  return Data.data[0];
+}

@@ -8,12 +8,12 @@ const NewsTem = ({item}) => {
     return (
         <div>
 
-       <div className="card bg-base-100 w-96 shadow-sm mb-5 border-2">
+       <div className="card bg-base-100 w-full shadow-sm mb-5 border-2">
   <figure>
     <Image
       src={item.image_url}
       alt="newsimg" 
-      width={350}
+      width={650}
       height={250}/>
   </figure>
   <div className="card-body">

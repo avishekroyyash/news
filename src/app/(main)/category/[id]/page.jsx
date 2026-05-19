@@ -4,6 +4,11 @@ import RightSide from '@/component/HomeCom/RightSide';
 import { DataPromise, NewsPromise } from '@/lib/data';
 import React from 'react';
 
+export const metadata = {
+  title: 'Catagory page ',
+  description: 'this is catagory page',
+}
+ 
 
 
 
